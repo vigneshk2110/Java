@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1stWebPage</title>
+</head>
+<body>
+<h1>Welcome, Vignesh</h1>
+<form name="logform">
+First Name : <input type = "text" name = "FirstName"></br>
+Last Name : <input type = "text" name = "LastName"></br>
+Password :<input type = "password" name = "password"></br>
+<button type="submit" onClick="login()">Submit</button>
+</form>
+</body>
+</html>
+
+<script>
+function login(){
+	var fName = document.logform.FirstName.value;
+	var lName = document.logform.LastName.value;
+	var pass = document.logform.password.value;
+	alert("\nfirstname: "+fName+"\nLastname: "+lName);
+}
+</script>
