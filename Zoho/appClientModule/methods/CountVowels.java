@@ -3,7 +3,6 @@ package methods;
 import java.util.Scanner;
 
 public class CountVowels {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("please enter the String to find the no of vowels");
