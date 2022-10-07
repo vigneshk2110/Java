@@ -8,7 +8,7 @@ public class CountVowels {
 		System.out.println("please enter the String to find the no of vowels");
 		String s = scan.next();
 		
-//		String s = "vignesh";
+
 		
 		int count = vowelCount(s);
 		System.out.println(count);
