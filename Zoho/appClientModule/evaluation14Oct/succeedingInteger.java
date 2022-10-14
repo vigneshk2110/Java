@@ -43,5 +43,7 @@ public class succeedingInteger {
 		
 		System.out.println(Arrays.toString(newArry));
 	}
+	
+	
 
 }
